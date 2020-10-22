@@ -27,7 +27,7 @@ c. lint -> run ESLint + Prettier check
 d. test -> run the dummy test
 10. Setup pre-commit hook to run lint and test scripts
 
-Evaluation criteria | 
+ Mark | Evaluation criteria
 ------------|-------------
 0 | Nothing done
 1 | The repository and dummy files for BE and FE applications created
