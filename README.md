@@ -7,4 +7,4 @@ Other useful commands:
 * npm run lint
 * npm run test
 
-1. Javascript development tools task
+1. [Javascript development tools task](task-1.md)
