@@ -8,5 +8,3 @@ export default function sayHello() {
 }
 
 sayHello();
-
-console.log('Yo');
