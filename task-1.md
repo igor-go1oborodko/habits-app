@@ -21,10 +21,10 @@ some styling and a test file with one dummy Jest test
 4. Setup Development configuration
 5. Setup Production configuration
 6. Setup the following scripts for FE package:
-*. build -> prepare production build
-*. start -> run dev server
-*. lint -> run ESLint + Prettier check
-*. test -> run the dummy test
+* build -> prepare production build
+* start -> run dev server
+* lint -> run ESLint + Prettier check
+* test -> run the dummy test
 7. Setup pre-commit hook to run lint and test scripts
 
  Mark | Evaluation criteria
