@@ -1,4 +1,4 @@
-###Home task – JavaScript development tools
+### Home task – JavaScript development tools
 
 Create a new repository for your project on https://git.epam.com/ or https://github.com/ with
 separate directories for FE and BE parts
@@ -7,10 +7,10 @@ separate directories for FE and BE parts
 1. Add index.ts file that just output “Hello, World!” into console and a test file with one dummy
 Jest test
 2. Setup the following scripts for BE package:
-• build -> compile TypeScript
-• start -> run index.ts and watch it for changes (use tsc –w + nodemon)
-• lint -> run ESLint + Prettier check
-• test -> run the dummy test
+* build -> compile TypeScript
+* start -> run index.ts and watch it for changes (use tsc –w + nodemon)
+* lint -> run ESLint + Prettier check
+* test -> run the dummy test
 3. Setup pre-commit hook to run lint and test scripts
 *FE application setup*
 4. Add index.ts file that just output “Hello, World!” to the document body, index.scss with
