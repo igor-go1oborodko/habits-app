@@ -1,7 +1,6 @@
 ### Home task – JavaScript development tools
 
-###### Create a new repository for your project on https://git.epam.com/ or https://github.com/ with
-separate directories for FE and BE parts
+###### Create a new repository for your project on https://git.epam.com/ or https://github.com/ with separate directories for FE and BE parts
 
 *BE application setup*
 1. Add index.ts file that just output “Hello, World!” into console and a test file with one dummy
