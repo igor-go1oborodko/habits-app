@@ -14,18 +14,18 @@ Jest test
 3. Setup pre-commit hook to run lint and test scripts
 
 *FE application setup*
-4. Add index.ts file that just output “Hello, World!” to the document body, index.scss with
+1. Add index.ts file that just output “Hello, World!” to the document body, index.scss with
 some styling and a test file with one dummy Jest test
-5. Add needed loaders for your files
-6. Setup HtmlWebpackPlugin
-7. Setup Development configuration
-8. Setup Production configuration
-9. Setup the following scripts for FE package:
-a. build -> prepare production build
-b. start -> run dev server
-c. lint -> run ESLint + Prettier check
-d. test -> run the dummy test
-10. Setup pre-commit hook to run lint and test scripts
+2. Add needed loaders for your files
+3. Setup HtmlWebpackPlugin
+4. Setup Development configuration
+5. Setup Production configuration
+6. Setup the following scripts for FE package:
+*. build -> prepare production build
+*. start -> run dev server
+*. lint -> run ESLint + Prettier check
+*. test -> run the dummy test
+7. Setup pre-commit hook to run lint and test scripts
 
  Mark | Evaluation criteria
 ------------|-------------
