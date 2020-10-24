@@ -1,7 +1,7 @@
 # habits-app
 
 To setup development environment locally please navigate to specific project folder (BE or FE) and run following commnads: "npm install", then "npm start".
-Other useful commands:
+###### Other useful commands:
 
 * npm run build - builds project for production
 * npm run lint - runs prettier format and eslint check
