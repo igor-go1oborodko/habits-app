@@ -4,8 +4,8 @@
   "description": "front-end-part",
   "main": "index.ts",
   "scripts": {
-    "build": "webpack-dev-server --mode development --open",
-    "start": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
     "lint": "prettier --write src/ && eslint src/",
     "test": "jest"
   },

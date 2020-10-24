@@ -1,6 +1,6 @@
 // import './index.scss';
 
-export default function sayHello() {
+function sayHello(): void {
   const body = document.querySelector('body');
   const h1 = document.createElement('h1');
   h1.textContent = 'Hello, World!';
@@ -8,3 +8,5 @@ export default function sayHello() {
 }
 
 sayHello();
+
+module.exports = sayHello;

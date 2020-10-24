@@ -1,11 +1,11 @@
-import { sayHello } from './index.ts';
+const hey = require('./index.ts');
 
 describe('Index.ts test suit', () => {
-  test(`${sayHello} should exist`, () => {
-    expect(sayHello).toBeDefined();
+  test(`${hey} should exist`, () => {
+    expect(hey).toBeDefined();
   });
 
-  test(`${sayHello} should be a function`, () => {
-    expect(typeof sayHello).toBe('function');
+  test(`${hey} should be a function`, () => {
+    expect(typeof hey).toBe('function');
   });
 });
