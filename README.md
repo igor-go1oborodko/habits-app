@@ -8,3 +8,4 @@ To setup development environment locally please navigate to specific project fol
 * npm run test - runs unit tests
 
 1. [Javascript development tools task](task-1.md)
+2. [Typescript](task-2.md)
