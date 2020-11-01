@@ -1,4 +1,4 @@
-// import './index.scss';
+import './styles.scss';
 
 function sayHello(): void {
   const body = document.querySelector('body');

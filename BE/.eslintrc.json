@@ -20,8 +20,11 @@
     "plugins": [
         "@typescript-eslint", "import", "prettier"
     ],
-    "rules": {
+    "rules": {  
         "no-console": 1,
-        "@typescript-eslint/no-var-requires": 1
+        "@typescript-eslint/no-var-requires": 1,
+        "no-use-before-define": "error",
+        "prefer-const": "error",
+        "semi": "error"
     }
 }
