@@ -1,4 +1,4 @@
-import { StatusState, ChallengeState } from './constants';
+const { State, ChallengeState } = require ('./constants.ts');
 
 /**
  * @todo check interfaces implementation.
@@ -19,20 +19,21 @@ export interface Achievement {
 }
 
 export interface Status {
-    state: StatusState;
+    state: State;
     updated: Date;
 }
 
 export interface Challenge {
     id: number;
-    state: ChallengeState;
+    state: string;
     startDate: Date;
     tasksOrder: Task[];
-    tasksStatus: Status[];
-    achievementsStatus: Status[];
+    tasksStatus?: Status;
+    actualAchievements: ActualAchievement[];
+    duration: number;
 }
 
-export interface AchieveItem {
+export interface ArchiveItem {
     id: number;
     description: string;
     status: Status;

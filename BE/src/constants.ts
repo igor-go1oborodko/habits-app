@@ -1,11 +1,16 @@
-export enum StatusState {
-    Pending,
-    Success,
-    Failure,
+enum State {
+    Pending = 'Pending',
+    Success = 'Success',
+    Failure = 'Failure'
 }
 
-export enum ChallengeState {
-    InProgress,
-    Success,
-    Failure,
+enum ChallengeState {
+    InProgress = 'InProgress',
+    Success = 'Success',
+    Failure = 'Failure',
+}
+
+module.exports = {
+    State,
+    ChallengeState
 }

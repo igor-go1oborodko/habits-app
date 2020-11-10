@@ -1,7 +1,7 @@
-function sayHello(): string {
+exports.sayHello = function(): string {
   return 'Hello, World!';
 }
 
-console.log(sayHello());
+exports.fn = function() {
 
-module.exports = sayHello;
+}
